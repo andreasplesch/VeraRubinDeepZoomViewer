@@ -309,7 +309,9 @@ export default function Viewer({
         idZoomOut={ZOOM_OUT_BUTTON_ID}
         className={style.zoomButton}
       />
-      {!imageToOpen && (
+      {
+      //!imageToOpen &&
+       (
         <FileMenu setImageCallback={setImage} className={style.menuButton} />
       )}
       <SquareButton

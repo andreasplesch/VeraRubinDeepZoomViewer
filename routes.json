@@ -3,6 +3,10 @@
     {
       "name": "duomo",
       "dziURL": "https://openseadragon.github.io/example-images/duomo/duomo.dzi"
+    },
+    {
+      "name": "treasurechest",
+      "dziURL": "VeraRubin/TreasureChest/VeraRubinTreasureChest.dzi"
     }
   ],
   "viewerAtIndex": true
