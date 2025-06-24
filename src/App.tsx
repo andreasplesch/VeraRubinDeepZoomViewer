@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "wouter";
+import { Router, Route, Switch } from "wouter";
 import { useHashLocation } from "wouter/use-hash-location";
 
 import FourOhFour from "./404";
