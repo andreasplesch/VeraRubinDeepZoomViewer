@@ -2,7 +2,10 @@
 
 This is a simple app for viewing very large images released by the Vera Rubin Observatoy using DeepZoom format and associated technology.
 
-Specifically, it is using a fork of towa which itslef is based on OpenSeaDragon (see below).
+Specifically, it is using a fork of the towa viewer which itseff is based on OpenSeaDragon (see below).
+
+The app is deployed to Github pages and includes the First Look image here:
+[https://andreasplesch.github.io/VeraRubinDeepZoomViewer/treasurechest](https://andreasplesch.github.io/VeraRubinDeepZoomViewer/treasurechest).
 
 ## Converting large tiff files to dzi
 
