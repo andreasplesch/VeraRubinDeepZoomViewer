@@ -1,4 +1,18 @@
-# towa (WIP)
+# Viewing large Vera Rubin Observatory images on the browser
+
+This is a simple app for viewing very large images released by the Vera Rubin Observatoy using DeepZoom format and associated technology.
+
+Specifically, it is using a fork of towa which itslef is based on OpenSeaDragon (see below).
+
+## Converting large tiff files to dzi
+
+VIPS can convert tif format to dzi pyramids using the `dzsave` operation:
+
+```
+$ vips dzsave large.tif largePyramid.dzi
+```
+
+## towa (WIP)
 > A web-based viewer for DeepZoom (`.dzi`) images.
 
 [![Deploy to Pages](https://github.com/pandaxtc/towa/actions/workflows/deploy.yml/badge.svg)](https://github.com/pandaxtc/towa/actions/workflows/deploy.yml)
