@@ -1,5 +1,6 @@
 import React from "react";
-import {Route, Switch} from "wouter";
+import { Route, Switch } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 
 import FourOhFour from "./404";
 import routeConfig from "../routes.json";
@@ -28,6 +29,7 @@ function parseCoordinate(x: string | undefined) {
 
 export default function Index() {
   return (
+    <Router hook={useHashLocation}>
     <Switch>
       {routeConfig.viewerAtIndex && (
         <Route key="/" path="/">
@@ -43,5 +45,6 @@ export default function Index() {
         <FourOhFour />
       </Route>
     </Switch>
+    </Router>
   );
 }
