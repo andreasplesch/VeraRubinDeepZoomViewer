@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet";
 import { useRouter } from "wouter";
 
 import FileMenu from "./file-menu";
-import SquareButton from "./square-button";e
+import SquareButton from "./square-button";
 import style from "./viewer.module.css";
 import ZoomButton from "./zoom-button";
 
