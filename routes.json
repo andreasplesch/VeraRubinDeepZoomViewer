@@ -1,17 +1,18 @@
 {
   "routes": [
     {
+      "name": "treasurechest",
+      "dziURL": "VeraRubin/TreasureChest/VeraRubinTreasureChest.dzi",
+      "title": "Vera Rubin Treasure Chest First Look",
+      "description": "First High Resolution, Wide Field Image of Vera Rubin Obs. made available",
+      "comment": "first route in array is used if none are given in URL"
+    },
+    {
       "name": "duomo",
       "dziURL": "https://openseadragon.github.io/example-images/duomo/duomo.dzi",
       "title": "Duomo",
       "description": "An italian cathedral."
     },
-    {
-      "name": "treasurechest",
-      "dziURL": "VeraRubin/TreasureChest/VeraRubinTreasureChest.dzi",
-      "title": "Vera Rubin Treasure Chest First Look",
-      "description": "First High Resolution, Wide Field Image of Vera Rubin Obs. made available"
-    }
   ],
   "viewerAtIndex": true
 }
