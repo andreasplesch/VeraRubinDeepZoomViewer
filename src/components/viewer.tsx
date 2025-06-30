@@ -4,9 +4,10 @@ import debounce from "lodash-es/debounce";
 import OpenSeaDragon from "openseadragon";
 import React, { useEffect, useRef, useState } from "react";
 import { Helmet } from "react-helmet";
+import { useRouter } from "wouter";
 
 import FileMenu from "./file-menu";
-import SquareButton from "./square-button";
+import SquareButton from "./square-button";e
 import style from "./viewer.module.css";
 import ZoomButton from "./zoom-button";
 
@@ -258,7 +259,13 @@ export default function Viewer({
 
         // prevent navigation loop, or updating when no image
         if (navHash !== window.location.hash.substring(1) && viewer.isOpen()) {
-          window.location.hash = navHash;
+          //disable for now since GH Pages requires hash routing in conflict with hash coordinates
+          //redo with Params (&)  or Query (?) instead
+          //window.location.hash = navHash;
+          // reset router to allow hash coordinates and level
+          // const router = useRouter();
+          // router.hook == 'useBrowserLocation'; // `useBrowserLocation` by default 
+          // router.base; // "/app"
         }
       }, 500);
 
