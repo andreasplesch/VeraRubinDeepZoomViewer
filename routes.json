@@ -14,5 +14,4 @@
     },
   ],
   "viewerAtIndex": true,
-  "comment": "first route in array is used if none are given in URL"
 }
