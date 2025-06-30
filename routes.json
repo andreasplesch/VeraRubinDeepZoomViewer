@@ -4,8 +4,7 @@
       "name": "treasurechest",
       "dziURL": "VeraRubin/TreasureChest/VeraRubinTreasureChest.dzi",
       "title": "Vera Rubin Treasure Chest First Look",
-      "description": "First High Resolution, Wide Field Image of Vera Rubin Obs. made available",
-      "comment": "first route in array is used if none are given in URL"
+      "description": "First High Resolution, Wide Field Image of Vera Rubin Obs. made available"
     },
     {
       "name": "duomo",
@@ -14,5 +13,6 @@
       "description": "An italian cathedral."
     },
   ],
-  "viewerAtIndex": true
+  "viewerAtIndex": true,
+  "comment": "first route in array is used if none are given in URL"
 }
