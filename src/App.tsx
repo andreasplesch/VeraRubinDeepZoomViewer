@@ -33,7 +33,7 @@ export default function Index() {
     <Switch>
       {routeConfig.viewerAtIndex && (
         <Route key="/" path="/">
-          <Viewer />
+          <Viewer imageToOpen={`${routeConfig?.routes[0]}`}/>
         </Route>
       )}
       {routeConfig.routes.map((route) => (
